@@ -1,11 +1,11 @@
 # Globetrotter
-`NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
+
 
 ## Unit 1 Assignment: Globetrotter
 
-Submitted by: **NAME**
+Submitted by: **Evelyn Zhinin**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **12hrs** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
@@ -64,7 +64,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+`TODO://` Add the embedded URL code to your animated app walkthrough below, `<div style="position: relative; padding-bottom: 54.6875%; height: 0;"><iframe src="https://www.loom.com/embed/2f777afa07d14041b46873858421ae6f?sid=789bea61-e189-4ca0-9f5a-c6d9c6167233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`. 
 
 `ADD_EMBEDDED_CODE_HERE`
 
