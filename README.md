@@ -64,9 +64,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `<div style="position: relative; padding-bottom: 54.6875%; height: 0;"><iframe src="https://www.loom.com/embed/2f777afa07d14041b46873858421ae6f?sid=789bea61-e189-4ca0-9f5a-c6d9c6167233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`. 
+`TODO://` Add the embedded URL code to your animated app walkthrough below.
 
-`ADD_EMBEDDED_CODE_HERE`
+`<div style="position: relative; padding-bottom: 55.729166666666664%; height: 0;"><iframe src="https://www.loom.com/embed/cd7be5e752ce402d98e9438f1e74afe6?sid=bc4cec37-8dc5-40ae-81f7-9d6cb6077913" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
 
 ### Reflection
 
