@@ -1,0 +1,236 @@
+
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8e2dc;
+    padding:0;
+    margin:0;
+}
+
+
+#banner{
+    background-image: linear-gradient(to bottom,rgba(245, 246, 252, 0.52), rgba(51, 53, 52, 0.73)),url("./images/homeportugal.jpg");
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 150px;
+    
+}
+#banner_info{
+    /* border: 5px solid black; */
+    padding: 5px 0 0 0
+    
+}
+.title{
+    font-size: 50px;
+    /* border: 5px solid black; */
+    margin:0 2px 20px 2px;
+
+}
+.banner_desc{
+    /* border: 5px solid black; */
+    font-size: 35px;
+    margin:2px 2px;
+}
+
+
+.navbar{
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    height:35px;
+    display: flex;
+    align-items: center;
+}
+.navbar *{
+    display: inline;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar li{
+    margin: 50px; 
+}
+
+/*home*/
+.homepage{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items:center; 
+   padding: 30px;
+}
+#home-title{
+    margin: 20px;
+}
+#home-desc{
+    text-align: center;
+    margin: 20px;
+}
+
+/*attractions*/
+.attraction-div{
+    border:5px green solid;
+}
+.attraction{
+    background-color: white;
+    border:5px green solid;
+   /* border:5px brown solid; */
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items:center center; 
+   margin:100px;
+}
+.col-attract{
+    border:5px red solid;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center center; 
+   margin:0px 50px;
+}
+#attract-p{
+    border:5px green solid;
+    text-align: start;
+    font-size: xx-large;
+    
+}
+#attract-head{
+    border:5px green solid;
+    text-align: start;
+    font-size: xxx-large;
+    margin-bottom: 35px;
+
+}
+
+
+/*accommodations*/
+
+#accommodations-sec{
+    /* border:5px black solid; */
+    margin: 0;
+}
+
+.accommodation{
+    background-color: white;
+   /* border:5px brown solid; */
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center center; 
+   margin:100px;
+}
+.acco-inside{
+   /* border:5px blue solid; */
+   display:flex;
+   justify-content: center;
+   align-items:center; 
+   padding:10px;
+}
+#accom-img{
+    /* border:5px green solid; */
+    object-fit:contain;
+    width: 100%;
+    height:100%;
+    vertical-align: center;
+    padding:10px 100px;
+    
+}
+
+
+
+
+
+/* Photo gallery */
+#photo_content{
+    /* border:5px black solid; */
+    text-align: center;
+    padding: 30px 100px 30px 100px;
+}
+#photo-heading{
+    /* border:5px black solid; */
+    margin-bottom: 15px;
+}
+
+#gallery-img{
+    object-fit:cover;
+    width: 100%;
+    height:100%;
+    vertical-align: middle;
+    border-radius: 10px; 
+}
+.photo-gallery{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border:5px black solid; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px 20px;
+    /* align-items: center; */
+    /* margin-right: auto; */
+   
+   
+    /* align-items: center; */
+}
+.gallery{
+   background-color: white;
+   width: 375px;
+   height: 375px;
+   /* border:5px brown solid; */
+   border-radius: 25px;
+   display:flex;
+   justify-content: center;
+   align-items:center center; 
+   padding:25px;
+
+
+}
+figure{
+    /* display: inline-block; */
+    /* display: flex; */
+    width:300px;
+    height:300px;
+    /* border:5px purple solid; */
+    /* align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+    
+
+}
+figcaption{
+    padding:5px;
+    text-align: center;
+    /* border:5px green solid; */
+}
+
+@media screen and (max-width:700px){
+    .gallery{
+        width:50%;
+    }
+    .accommodation{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .gallery{
+        width:100%;
+    }
+    .accommodation{
+        width:50%;
+    }
+    
+}
+
+
